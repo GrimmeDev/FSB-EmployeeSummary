@@ -10,6 +10,19 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
+// Can enter any number of TYPE of employee (Manager, Intern, Engineer)
+// Ask questions based on TYPE of employee
+// Loop until user done entering a TYPE of employee
+// If all 3 types have been marked as "complete", call render
+
+
+// do {
+//     // gather: Name, ID, EMAIL
+//     // What role of employee (list, choices: Manager, Engineer, Intern)
+//     // based on TYPE, gather: Office Number, GitHub, School
+
+// } while (true)
+
 
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
